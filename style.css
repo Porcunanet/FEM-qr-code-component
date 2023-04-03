@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+    --outfit-font:'Outfit', sans-serif;
+}
+
+body {
+    background-color: #d5e1ef;
+}
+.container {
+    max-width: 375px;
+    margin: 13% auto;
+    padding: 1rem;
+    background-color:white;
+    border-radius: .8rem;
+
+    font-family: var(--outfit-font);
+    display:grid;
+    text-align: center;
+    justify-items: center;
+
+}
+
+h2{
+    max-width: 18ch;
+    margin: 1.8rem 0;
+    color: var(--dark-blue);
+}
+p {
+    max-width: 28ch;
+    margin-bottom: 2.5rem;
+    font-size:15px;
+    color: gray;
+}
+img {
+    width: 100%;
+    border-radius: .5rem;
+}
